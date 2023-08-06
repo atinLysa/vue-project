@@ -155,7 +155,7 @@ export default {
     //  timestamp
     changeTimeFormat(timestamp) {
       let date = new Date(timestamp);
-      let month = date.getMonth(); // Get the abbreviated month name
+      let month = date.getMonth()+1; // Get the abbreviated month name
       let day = date.getDate(); // Get the day of the month
       let year = date.getFullYear(); // Get the full year
       let hours = date.getHours();
